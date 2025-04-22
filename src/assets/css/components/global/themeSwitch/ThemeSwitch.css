@@ -1,0 +1,68 @@
+.theme-switch {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 7.625rem;
+    height: 2.75rem;
+    border-radius: 2.5rem;
+    background-color: hsl(204, 95%, 83%);
+    position: relative;
+}
+
+.theme-switch svg {
+    fill: #373737;
+}
+
+.theme-chooseButton {
+    width: 4.25rem;
+    height: 2.75rem;
+    border-radius: 2.5rem;
+    background-color: #D8EEFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.theme-chooseButton svg {
+    opacity: 80%;
+}
+
+.theme-defaultButton {
+    transform: translateX(-1rem);
+    transition: transform .5s ease-in-out;
+}
+
+.theme-defaultButton svg {
+    opacity: 40%;
+}
+
+/* Dark Tema Stilleri */
+html.dark .theme-switch {
+    background: #1B6A9C;
+}
+
+html.dark .theme-switch svg {
+    fill: #FBFBFB;
+}
+
+html.dark .theme-chooseButton {
+    background-color: #003661;
+}
+
+/* Animation */
+.theme-switch.active .theme-chooseButton {
+    transform: translateX(3.5rem);
+}
+
+.theme-switch.active .theme-defaultButton {
+    transform: translateX(-4.75rem);
+}
