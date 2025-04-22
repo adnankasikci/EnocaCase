@@ -48,16 +48,20 @@ Bu proje, Enoca firmasının challange uygulamasıdır. <b>Vite.js</b> platformu
 
 **Proje Görselleri**
 
-<p align="center">
-  <img src="/finalScreen/Screen01.png" width="200" style="margin-right: 15px; max-width: 100%;"/>
-  <img src="/finalScreen/Screen02.png" width="200" style="margin-right: 15px; max-width: 100%;"/>
-  <img src="/finalScreen/Screen03.png" width="233" style="max-width: 100%;" />
+
+<p align="start">
+  <img src="/finalScreen/Screen01.png" width="47%"/>
+  <img src="/finalScreen/Screen02.png" width="47%" />
 </p>
 
-<p align="center">
-  <img src="/finalScreen/Screen04.png" width="200" style="margin-right: 15px; max-width: 100%;" />
-  <img src="/finalScreen/Screen05.png" width="200" style="margin-right: 15px; max-width: 100%;" />
-  <img src="/finalScreen/Screen06.png" width="200" style="max-width: 100%;" />
+<p align="start">
+  <img src="/finalScreen/Screen03.png" width="47%" />
+  <img src="/finalScreen/Screen04.png" width="47%" />
+</p>
+
+<p align="start">
+  <img src="/finalScreen/Screen05.png" width="47%" />
+  <img src="/finalScreen/Screen06.png" width="47%" />
 </p>
 
 <br>
